@@ -1,31 +1,45 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
     <title>HTML Tags</title>
     <meta charset="utf-8">
   </head>
   <body>
 
-    <h1>Important HTML tags</h1>
+    <div>
+      <a href="index.html">Home</a>
+      <a href="tags.html">HTML Tags</a>
+      <a href="moby_dick.html">Moby Dick</a>
+    </div>
 
-    <a href="https://www.flickr.com/photos/jdhancock/3814523970">
-        <img src="images/storm_trooper_tagged.jpg" alt="Tagged Storm Trooper">
-    </a>
+    <header>
+      <h1>Important HTML tags</h1>
+    </header>
 
-    <p>
-         This page is designed as a quick reference for some of the common tags
-        covered in <a href="https://learnenough.com/html"><em>Learn
-        Enough HTML to Be Dangerous</em></a>. In the process of making it, we'll
-        learn how to make HTML <em>tables</em> via <code>table</code> and
-        related tags.
-    </p>
+    <div>
+      <a href="https://www.flickr.com/photos/jdhancock/3814523970">
+          <img src="images/storm_trooper_tagged.jpg" alt="Tagged Storm Trooper">
+      </a>
+
+        <p>
+              This page is designed as a quick reference for some of the common tags
+            covered in <a href="https://learnenough.com/html"><em>Learn
+            Enough HTML to Be Dangerous</em></a>. In the process of making it, we'll
+            learn how to make HTML <em>tables</em> via <code>table</code> and
+            related tags.
+        </p>
+    </div>
+
+    <div>
 
     <p>
          The tables below don't include all HTML tags, but they do list many of
         the most important ones.
     </p>
 
-    <h2>Block Elements</h2>
+    <span>
+      <h2>Block Elements</h2>
+    </span>
 
     <table>
       <tr>
@@ -65,7 +79,9 @@
       </tr>
     </table>
 
-    <h2>Inline Elements</h2>
+    <span>
+      <h2>Inline Elements</h2>
+    </span>
 
     <table>
       <tr>
@@ -99,7 +115,7 @@
       <tr>
         <td><code>img</code></td>
         <td>image</td>
-        <td>include a image</td>
+        <td>include an image</td>
         <td><code>&lt;img src="https://bit.ly/1MZAFuQ" alt="Michael Hartl"&gt;</code></td>
         <td><img src="https://bit.ly/1MZAFuQ" alt="Michael Harlt"></td>
       </tr>
@@ -111,5 +127,22 @@
         <td><code>h1-h6</code></td>
       </tr>
     </table>
+    </div>
+    <div>
+      <h2>Ordered and unordered lists</h2>
+      <h3>Ordered list (morning routine)</h3>
+      <ol>
+        <li>Wake up</li>
+        <li>Brush my teeth</li>
+        <li>Have coffee</li>
+      </ol>
+      <h3>Unordered list (supermarket)</h3>
+      <ul>
+        <li>Oat</li>
+        <li>Milk</li>
+        <li>Eggs</li>
+      </ul>
+      <p>The tags <code>ol, ul, li</code> are block elements.</p>
+    </div>
     </body>
   </html>
